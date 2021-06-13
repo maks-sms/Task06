@@ -1,6 +1,10 @@
 public class Calculator {
 
-    public int plus(int a, int b){
-        return 0;
+    public int plus(int[] arr) {
+        int sum = 0;
+        for (int j : arr) {
+            sum = sum + j;
+        }
+        return sum;
     }
 }
